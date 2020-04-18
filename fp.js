@@ -19,7 +19,7 @@ var ifKeyDown = [0, 0, 0, 0];//按鍵位置判定是否壓下(1)及長壓(2)
 var pressing = [0, 0, 0, 0];//判定長壓迴圈是否存在
 //歌曲名
 //var songMap = ["Day of dush-1", "Crescent Moon", "Kiss you Baby", "KPKS-1", "KPKS-2", "crack", "day of dush-2", "paranoia", "PM-1", "PM-2", "天之弱"];//歌曲名
-var songMap = ["Day of dush", "Crescent Moon", "Kiss you Baby"];
+var songMap = ["Day of dush(暫無檔案)", "Crescent Moon", "Kiss you Baby"];
 //
 var songMapData = ["Day_of_dush", "Crescent_Moon", "Kiss_you_Baby", "KPKS-1", "KPKS-2", "crack", "day_of_dush-2", "paranoia", "PM-1", "PM-2", "天之弱"];
 var songMapKey = [["DOD短鍵", "DOD長鍵"], ["csm長鍵", "csm短鍵"], ["KYB長鍵", "KYB短鍵"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"], ["temp", "tempL"]];//"長鍵","短鍵"
