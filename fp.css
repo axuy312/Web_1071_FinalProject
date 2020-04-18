@@ -1,0 +1,344 @@
+
+#a {
+    height: 600px;
+    width: 600px;
+    border: solid 2px black;
+    margin-left: -300px;
+    position: absolute;
+    left: 50%;
+}
+
+#score {
+    height: 50px;
+    width: 200px;
+    border: solid 1px black;
+    margin-left: -500px;
+    position: absolute;
+    left: 50%;
+}
+
+    #score h1 {
+        font-family: sorceFace;
+        position: relative;
+        top: -15px;
+    }
+
+/*----------------排行榜-----------------------------------------------------*/
+
+div#scoreList {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(70,61,62,0.7);
+    background-color: rgba(70,61,62,0.2);
+    border-radius: 25px;
+    position: relative;
+    left: 50%;
+    margin-left: 400px;
+    width: 500px;
+    height: 850px;
+}
+
+div#scoreListFont {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 300px;
+    height: 7%;
+    text-align : center;
+}
+
+p#scoreListP {
+    font-family: sorceListFace;
+    font-size: 50px;
+}
+
+div#st {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(255,215,0,0.8);
+    background-color: rgba(255,215,0,0.3);
+    border-radius: 20px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 400px;
+    height: 50px;
+    font-family: songTextFace;
+	font-size: 34px; 
+}
+
+div#nd {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(192,192,192,1);
+    background-color: rgba(192,192,192,0.3);
+    border-radius: 20px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 400px;
+    height: 50px;
+    font-family: songTextFace;
+	font-size: 30px; 
+}
+
+div#th {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(196,112,34,0.8);
+    background-color: rgba(196,112,34,0.3);
+    border-radius: 20px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 400px;
+    height: 50px;
+    font-family: songTextFace;
+	font-size: 30px; 
+}
+
+div#other {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(248,243,209,0.8);
+    border-radius: 20px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 400px;
+    height: 50px;
+    font-family: songTextFace;
+	font-size: 30px; 
+}
+
+/*-------------------------------------------------------------------------------------*/
+.selectedSong {
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    height: 60px;
+    border: solid 1.5px black;
+    margin-left: -710px;
+}
+
+    .selectedSong::before {
+        content: '';
+        width: 0;
+        height: 100%;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+    }
+
+#songText {
+    font-family: "songTextFace", "Arial";
+    font-size: 25px;
+    width: 370px;
+    line-height: 20px;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    word-break: break-all;
+}
+
+div {
+    text-align: center;
+}
+
+.b1 {
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    border: solid 1px black;
+    left: 55px;
+}
+
+.b2 {
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    border: solid 1px black;
+    left: 185px;
+}
+
+.b3 {
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    border: solid 1px black;
+    left: 315px;
+}
+
+.b4 {
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    border: solid 1px black;
+    left: 445px;
+}
+
+#pause {
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    left: 50%;
+    top: 40%;
+    margin-left: -100px;
+    margin-top: -25px;
+    border-style: outset;
+    border-color: skyblue;
+    border-radius: 25px;
+    background-color: lightgreen;
+    border-width: 3px;
+    display: block;
+}
+
+    #pause h3 {
+        position: relative;
+        top: -13px;
+    }
+
+#restart {
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -25px;
+    border-style: outset;
+    border-color: skyblue;
+    border-radius: 25px;
+    background-color: lightgreen;
+    border-width: 3px;
+    display: block;
+}
+
+    #restart h3 {
+        position: relative;
+        top: -13px;
+    }
+
+#reselect {
+    position: absolute;
+    height: 35px;
+    width: 200px;
+    left: 50%;
+    top: 60%;
+    margin-left: -100px;
+    margin-top: -25px;
+    border-style: outset;
+    border-color: skyblue;
+    border-radius: 25px;
+    background-color: lightgreen;
+    border-width: 3px;
+    display: block;
+}
+
+    #reselect h3 {
+        position: relative;
+        top: -13px;
+    }
+
+#acc {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    left: 50%;
+    top: 60%;
+    margin-left: -50px;
+    border: solid 0px black;
+}
+
+.text {
+    position: absolute;
+    height: 20px;
+    width: 600px;
+    top: 600px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+#combo {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    font-size: 50px;
+    font-family: comboFace;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+#backBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    display: none;
+}
+
+#frontBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    display: block;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+div#nameDiv {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@font-face {
+    font-family: songTextFace;
+    src: url(font/W12.ttc);
+}
+
+@font-face {
+    font-family: sorceListFace;
+    src: url(font/sorceList.TTF);
+}
+
+@font-face {
+    font-family: sorceFace;
+    src: url(font/score.TTF);
+}
+
+@font-face {
+    font-family: comboFace;
+    src: url(font/combo.ttc);
+}

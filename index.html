@@ -1,0 +1,50 @@
+﻿<!DOSTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        music game
+    </title>
+    <link rel="stylesheet" type="text/css" href="fp.css">
+    <script></script>
+    <script></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="fp.js"></script>
+
+</head>
+<body onKeyUp="keyUP(event)" onKeyDown="keyDown(event)" onload="loadSong()">
+    <div id="backBG">
+        <img src="background/original_background.png" style="z-index : 1;" alt=" " height=100% width=100%>
+    </div>
+    <div id="frontBG">
+        <img src="background/original_background.png" style="z-index : 1;" alt=" " height=100% width=100%>
+    </div>
+    <div id="score"><h1>0</h1></div>
+    <div id="a">
+        <div class="b1" style="top : 550px;"></div>
+        <div class="b2" style="top : 550px;"></div>
+        <div class="b3" style="top : 550px;"></div>
+        <div class="b4" style="top : 550px;"></div>
+        <div id="b"></div>
+        <div id="acc"></div>
+        <div id="selection"></div>
+        <div id="combo"></div>
+        <div id="name" style="position : absolute ; top : 300px ; left : 200px"></div>
+    </div>
+    <div id="playmusic"></div>
+    <div class="text"><p>ESC : Pause , DFJK : Key , Up、Down、Enter : Select</p></div>
+    <div id="scoreList">
+        <div id="scoreListFont"><p id = "scoreListP">排行榜</p></div>
+        <div id="st"></div>
+        <div id="nd"></div>
+        <div id="th"></div>
+        <div id="other" ></div>
+        <div id="other"></div>
+        <div id="other"></div>
+        <div id="other"></div>
+        <div id="other"></div>
+
+    </div>
+    <div id="debug"></div>
+</body>
+</html>
