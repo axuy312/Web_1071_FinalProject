@@ -231,7 +231,8 @@ function inputNameF() {
             }
         },
         error: function () {
-            alert("失敗");
+            console.log("預覽版無資料庫");
+            $("#name").html("");
         }
     });
 
@@ -755,7 +756,7 @@ function scoreList() {
 			}
         },
         error: function () {
-            alert("Request failed.");
+            console.log("預覽版無資料庫");
         }
     });
 }
