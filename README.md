@@ -4,7 +4,7 @@
 由1071503、1073302、1073342共同完成
 
 # *▼點選圖片遊玩*
-[![image](https://github.com/axuy312/Web_1071_FinalProject/blob/master/Description/%E7%95%AB%E9%9D%A2.JPG)
+[![image](https://github.com/axuy312/Web_1071_FinalProject/blob/master/Description/%E7%95%AB%E9%9D%A2.JPG)](https://axuy312.github.io/Web_1071_FinalProject/)
 
 	控制:
 	
