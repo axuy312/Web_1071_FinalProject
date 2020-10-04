@@ -3,6 +3,7 @@
 
 由1071503、1073302、1073342共同完成
 
+[遊玩連結請點我](https://axuy312.github.io/Web_1071_FinalProject/)
 
 	控制:
 	
